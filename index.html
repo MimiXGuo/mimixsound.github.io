@@ -1,55 +1,107 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
+
+<title> My Webpage
+</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<link rel="stylesheet" type="text/css" href="style.css" />
-<title>Wild Life</title>
+	<link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+<h1> The Mimis web site  </h1>
+    <p> Everything you want to know about me </p>
+<br>
 
-    <div id="header">
-        <h1>Welcome to Wildlife for Life</h1>
-        <h2>We fight for life</h2>
-        
-        <ul class="navigation">
-            <li><a href="index.html" title="home">Home</a></li>
-            <li><a href="#" title="contact">Contact Us</a></li>
-        </ul>
-    </div>
 
-    <div class="content">
-    
-    <div class="col-right">
-        
-        <h1>The Wild Life is great</h1><br/>
-        <p>Wild Life includes all non-domesticated plants, animals and other organisms.</p>
-        <p>Wildlife can be found in all ecosystems. Deserts, forests, rain forests, plains, grasslands, and other areas including the most developed urban sites, all have distinct forms of wildlife.</p><br />
-        
-        <h3>Destruction</h3><br />
-        <img src="images/img1.jpg" class="float-left" alt="alternative text.  This text is for screen readers or in the instance an image can't load, a description of what should have been here." /><p>Exploitation of wild populations has been a characteristic of modern man since our exodus from Africa 130,000 – 70,000 years ago. The rate of extinctions of entire species of plants and animals across the planet has been so high in the last few hundred years it is widely believed that we are in the sixth great extinction event on this planet</p><br />
-        
-        <h3 class="clear">Food, pets, and traditional medicines</h3><br />
-        <p>Anthropologists believe that the Stone Age people and hunter-gatherers relied on wildlife, both plants and animals, for their food. In fact, some species may have been hunted to extinction by early human hunters.</p>
-    </div>
-    
-    <div class="sidebar-left">
-    	<h3>Favorite links</h3> <br/>
-    	<ul class="list">
-        	<li><a href="http://wildlife-museum.org/" title="Lindsay Wildlife Museum">Lindsay Wildlife Museum</a></li>
-            <li><a href="http://www.worldwildlife.org/home-full.html" title="WWF">WWF</a></li>
-        </ul>
-        
-        <h3>News</h3>
-        <p>Aug/2012 - About forty Blue whales have been sighted swimming in waters 15 miles west of La Jolla.</p>
-        <p>Aug/2012 - Three tigers have been found dead in India in the last week. The carcass of a ten year old tigress was found in Kanha Tiger Reserve, and another female tiger was found in a very poor state of health in the same reserve. Unfortunately vets could not save her.</p>
-    </div>
-    <br class="clear" />  <!-- this code is clearing the floats from the above divs.  See what happens when you take it away to really learn what clear does... -->
-    </div>
-    <div id="footer">
-        <p>We believe that we can all live together in Planet Earth</p>
-    </div>
+<nav>
+	<li>   <a href="About_me.html" > About Me</a> 
+	<li>   <a href="My_favorite.html">My Habits</a></li>
+	<li>   <a href="My_works.html">Works</a></li>
+	<li>   <a href="#Survey">Survey Section</a></li>
+	</nav>
+
+
+<p> Know me more, please click my facebook link below
+	<br>
+ <a href="https://www.facebook.com/Guoxiuzhu"> Mimi's facebook </a>
+ <br>
+ <a href="https://soundcloud.com/xiuzhu-guo?utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing"> Mimi's soundcloud </a>
+
+</p>
+<br>
+<br>
+
+
+A video about my cat Miko
+<br>
+<br>
+
+<video width="400" controls>
+	<source src="Miko.mp4" type="video/mp4">
+	<source src="Miko.ogg" type="video/ogg">
+	Your browser does not support the audio element.
+</video>	
+
+<h3><a name="Survey">Survey </a></h3>
+
+<form action="/action_page.php">
+	<label for="fname">First name:</label>
+	<input type="text" id="fname" name="fname"><br><br>
+	<label for="lname">Last name:</label>
+	<input type="text" id="lname" name="lname"><br><br>
+  </form>
+
+<form action = ""methods="">
+	Are you interested in music:<br>
+	Yes:
+	<input type="radio" name="yesorno" value=""><br>
+	No:
+	<input type="radio" name="yesorno" value="">
+	
+	</form>
+
+<br><br><br> 
+
+<form action =""methods="">
+
+Which genre are you interested in? <br>
+<input type="checkbox" name="" value="">Rock <br>
+<input type="checkbox" name="" value="">Hip-Hop music <br>
+<input type="checkbox" name="" value="">Jazz <br>
+<input type="checkbox" name="" value="">Funk <br>
+<input type="checkbox" name="" value="">Electronic music <br>
+<input type="checkbox" name="" value="">Country music <br>
+<input type="checkbox" name="" value="">Pop music <br>
+<input type="checkbox" name="" value="">Dub <br>
+
+
+<br><br><br> 
+
+Please enter the date you last listened to concert
+<input type="date" name="day"><br> 
+
+The average number of minutes you listen to songs per day
+<input type="number" name="numdays" min="10" max="120"> minutes
+
+<h3>Please enter one of your favorite Artist:</h3>
+
+
+
+	<input type="text" id="fname" name="fname"><br><br>
+	<input type="submit" value="Submit">
+
+  </form>
+
+
+<p> <a name="Birds"> Mysterious castle. </a></p>
+
+<img src="Images/fantasy-castle.jpeg" alt="photos of castle" width="800" height="500">
 
 </body>
+
 </html>
+
